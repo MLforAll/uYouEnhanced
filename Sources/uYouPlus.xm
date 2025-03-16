@@ -273,7 +273,7 @@ YTMainAppControlsOverlayView *controlsOverlayView;
 }
 %end
 
-// Fixes uYou crash when trying to play video (qnblackcat/#1422) - @Dayanch96
+// Fixes uYou crash when trying to play video (#1422)
 %hook YTPlayerOverlayManager
 %property (nonatomic, assign) float currentPlaybackRate;
 
